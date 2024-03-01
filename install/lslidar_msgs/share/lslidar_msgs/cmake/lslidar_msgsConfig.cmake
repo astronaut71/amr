@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/lslidar_msgs/ament_cmake_core/lslidar_msgsConfig.cmake

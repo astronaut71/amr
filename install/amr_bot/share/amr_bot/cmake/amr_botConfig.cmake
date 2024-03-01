@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/amr_bot/ament_cmake_core/amr_botConfig.cmake

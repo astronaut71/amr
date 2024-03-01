@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ros2_ws/build/rtabmap_msgs': /usr/bin/cmake --build /home/user/ros2_ws/build/rtabmap_msgs
+Invoked command in '/home/user/ros2_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --build /home/user/ros2_ws/build/rtabmap_msgs
+Invoking command in '/home/user/ros2_ws/build/rtabmap_msgs': /usr/bin/cmake --install /home/user/ros2_ws/build/rtabmap_msgs
+Invoked command in '/home/user/ros2_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --install /home/user/ros2_ws/build/rtabmap_msgs

@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/lslidar_msgs/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan.py

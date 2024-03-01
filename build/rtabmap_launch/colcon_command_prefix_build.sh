@@ -1,0 +1,11 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/user/ros2_ws/install/rtabmap/share/rtabmap/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.sh"
+. "/home/user/ros2_ws/install/nav2_msgs/share/nav2_msgs/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_util/share/rtabmap_util/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_odom/share/rtabmap_odom/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_slam/share/rtabmap_slam/package.sh"
+. "/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/package.sh"

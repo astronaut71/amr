@@ -1,0 +1,81 @@
+[0.037s] Invoking command in '/home/user/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake /home/user/ros2_ws/src/imu_tools/imu_complementary_filter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/imu_complementary_filter
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.405s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.450s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.523s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.528s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[0.710s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.809s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.848s] -- Looking for pthread.h
+[0.893s] -- Looking for pthread.h - found
+[0.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.940s] -- Found Threads: TRUE  
+[1.030s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.090s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.102s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.363s] -- Configuring done
+[1.371s] -- Generating done
+[1.372s] -- Build files have been written to: /home/user/ros2_ws/build/imu_complementary_filter
+[1.379s] Invoked command in '/home/user/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake /home/user/ros2_ws/src/imu_tools/imu_complementary_filter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/imu_complementary_filter
+[1.379s] Invoking command in '/home/user/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --build /home/user/ros2_ws/build/imu_complementary_filter
+[1.411s] [ 20%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o[0m
+[1.615s] [ 40%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o[0m
+[9.608s] [ 60%] [32m[1mLinking CXX shared library libcomplementary_filter.so[0m
+[10.048s] [ 60%] Built target complementary_filter
+[10.061s] [ 80%] [32mBuilding CXX object CMakeFiles/complementary_filter_node.dir/src/complementary_filter_node.cpp.o[0m
+[11.577s] [100%] [32m[1mLinking CXX executable complementary_filter_node[0m
+[11.760s] [100%] Built target complementary_filter_node
+[11.769s] Invoked command in '/home/user/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --build /home/user/ros2_ws/build/imu_complementary_filter
+[11.791s] Invoking command in '/home/user/ros2_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --install /home/user/ros2_ws/build/imu_complementary_filter
+[11.796s] -- Install configuration: ""
+[11.797s] -- Execute custom install script
+[11.797s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node
+[11.802s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
+[11.807s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
+[11.812s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py
+[11.816s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh
+[11.821s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv
+[11.826s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter
+[11.831s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter
+[11.836s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh
+[11.841s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv
+[11.845s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh
+[11.850s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv
+[11.855s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash
+[11.859s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh
+[11.864s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh
+[11.870s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv
+[11.875s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv
+[11.881s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter
+[11.886s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.891s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[11.895s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake
+[11.900s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+[11.905s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+[11.910s] -- Symlinking: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/package.xml
+[11.914s] -- Installing: /home/user/ros2_ws/install/imu_complementary_filter/lib/libcomplementary_filter.so
+[11.921s] -- Set runtime path of "/home/user/ros2_ws/install/imu_complementary_filter/lib/libcomplementary_filter.so" to ""
+[11.921s] -- Installing: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
+[11.921s] -- Installing: /home/user/ros2_ws/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake
+[11.922s] Invoked command in '/home/user/ros2_ws/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --install /home/user/ros2_ws/build/imu_complementary_filter

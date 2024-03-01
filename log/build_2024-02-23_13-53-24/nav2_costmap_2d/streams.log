@@ -1,0 +1,127 @@
+[0.041s] Invoking command in '/home/user/ros2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_map_server/lib:/home/user/ros2_ws/install/nav2_lifecycle_manager/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/build/nav2_costmap_2d
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_core[0m
+[0.107s] [ 17%] Built target nav2_costmap_2d_core
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target layers[0m
+[0.141s] [ 26%] Built target layers
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target filters[0m
+[0.166s] [ 31%] Built target filters
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_client[0m
+[0.191s] [ 36%] Built target nav2_costmap_2d_client
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_markers[0m
+[0.212s] [ 39%] Built target nav2_costmap_2d_markers
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_cloud[0m
+[0.231s] [ 41%] Built target nav2_costmap_2d_cloud
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d[0m
+[0.251s] [ 43%] Built target nav2_costmap_2d
+[0.258s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.266s] [ 46%] Built target gtest_main
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.283s] [ 48%] Built target gtest
+[0.291s] [35m[1mConsolidate compiler generated dependencies of target array_parser_test[0m
+[0.300s] [ 51%] Built target array_parser_test
+[0.307s] [35m[1mConsolidate compiler generated dependencies of target collision_footprint_test[0m
+[0.319s] [ 53%] Built target collision_footprint_test
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target costmap_convesion_test[0m
+[0.338s] [ 56%] Built target costmap_convesion_test
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target declare_parameter_test[0m
+[0.357s] [ 58%] Built target declare_parameter_test
+[0.364s] [35m[1mConsolidate compiler generated dependencies of target costmap_filter_test[0m
+[0.376s] [ 60%] Built target costmap_filter_test
+[0.383s] [35m[1mConsolidate compiler generated dependencies of target keepout_filter_test[0m
+[0.396s] [ 63%] Built target keepout_filter_test
+[0.404s] [35m[1mConsolidate compiler generated dependencies of target speed_filter_test[0m
+[0.417s] [ 65%] Built target speed_filter_test
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target binary_filter_test[0m
+[0.441s] [ 68%] Built target binary_filter_test
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target copy_window_test[0m
+[0.464s] [ 70%] Built target copy_window_test
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target costmap_filter_service_test[0m
+[0.483s] [ 73%] Built target costmap_filter_service_test
+[0.493s] [35m[1mConsolidate compiler generated dependencies of target denoise_layer_test[0m
+[0.505s] [ 78%] Built target denoise_layer_test
+[0.512s] [35m[1mConsolidate compiler generated dependencies of target footprint_tests_exec[0m
+[0.524s] [ 80%] Built target footprint_tests_exec
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target test_collision_checker_exec[0m
+[0.545s] [ 82%] Built target test_collision_checker_exec
+[0.553s] [35m[1mConsolidate compiler generated dependencies of target inflation_tests_exec[0m
+[0.567s] [ 85%] Built target inflation_tests_exec
+[0.576s] [35m[1mConsolidate compiler generated dependencies of target obstacle_tests_exec[0m
+[0.590s] [ 87%] Built target obstacle_tests_exec
+[0.598s] [35m[1mConsolidate compiler generated dependencies of target range_tests_exec[0m
+[0.612s] [ 90%] Built target range_tests_exec
+[0.620s] [35m[1mConsolidate compiler generated dependencies of target dyn_params_tests[0m
+[0.634s] [ 92%] Built target dyn_params_tests
+[0.641s] [35m[1mConsolidate compiler generated dependencies of target costmap_bresenham_2d[0m
+[0.651s] [ 95%] Built target costmap_bresenham_2d
+[0.658s] [35m[1mConsolidate compiler generated dependencies of target order_layer[0m
+[0.670s] [ 97%] Built target order_layer
+[0.677s] [35m[1mConsolidate compiler generated dependencies of target plugin_api_order[0m
+[0.691s] [100%] Built target plugin_api_order
+[0.699s] Invoked command in '/home/user/ros2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_map_server/lib:/home/user/ros2_ws/install/nav2_lifecycle_manager/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/build/nav2_costmap_2d
+[0.777s] Invoking command in '/home/user/ros2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_map_server/lib:/home/user/ros2_ws/install/nav2_lifecycle_manager/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/build/nav2_costmap_2d
+[0.782s] -- Install configuration: "Release"
+[0.783s] -- Execute custom install script
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/liblayers.so
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/libfilters.so
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[0.783s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[0.784s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image_processing.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise_layer.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[0.785s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[0.786s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[0.787s] -- Symlinking: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[0.794s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[0.796s] Invoked command in '/home/user/ros2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_map_server:/home/user/ros2_ws/install/nav2_lifecycle_manager:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_map_server/lib:/home/user/ros2_ws/install/nav2_lifecycle_manager/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/build/nav2_costmap_2d

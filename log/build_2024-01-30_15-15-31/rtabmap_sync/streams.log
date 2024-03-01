@@ -1,0 +1,151 @@
+[0.036s] Invoking command in '/home/user/ros2_ws/build/rtabmap_sync': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/home/user/ros2_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/build/rtabmap_python:/home/user/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/user/ros2_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/rtabmap_sync
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.311s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.356s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.402s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.404s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)
+[0.595s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.597s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.656s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.672s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.706s] -- Looking for pthread.h
+[0.750s] -- Looking for pthread.h - found
+[0.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.794s] -- Found Threads: TRUE  
+[0.901s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.948s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.980s] -- Found rtabmap_conversions: 0.21.3 (/home/user/ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[1.337s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.337s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.357s] -- Checking for module 'eigen3'
+[1.366s] --   Found eigen3, version 3.4.0
+[1.388s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.388s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.442s] -- Checking for module 'libusb-1.0'
+[1.451s] --   Found libusb-1.0, version 1.0.25
+[1.471s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.472s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.505s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.061s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.070s] -- Checking for module 'flann'
+[2.079s] --   Found flann, version 1.9.1
+[2.103s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.103s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.106s] -- Found Qhull version 8.0.2
+[2.362s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.366s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.450s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.450s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.451s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.451s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.452s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.452s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.453s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.453s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.454s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.454s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.455s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.455s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.455s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.456s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.456s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.468s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.507s] -- RTABMAP_SYNC_MULTI_RGBD = OFF
+[2.507s] -- RTABMAP_SYNC_USER_DATA  = OFF
+[2.571s] -- Configuring done
+[2.637s] -- Generating done
+[2.638s] -- Build files have been written to: /home/user/ros2_ws/build/rtabmap_sync
+[2.651s] Invoked command in '/home/user/ros2_ws/build/rtabmap_sync' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/home/user/ros2_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/build/rtabmap_python:/home/user/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/user/ros2_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/rtabmap_sync
+[2.652s] Invoking command in '/home/user/ros2_ws/build/rtabmap_sync': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/home/user/ros2_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/build/rtabmap_python:/home/user/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/user/ros2_ws/build/rtabmap_sync
+[2.690s] [  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[34.272s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[77.350s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[97.368s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[142.083s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[175.685s] [ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[210.944s] [ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[243.163s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[258.182s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[278.223s] [ 43%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[279.908s] [ 43%] Built target rtabmap_sync
+[279.921s] [ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[299.597s] [ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[313.590s] [ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[326.672s] [ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[341.992s] [ 65%] [32m[1mLinking CXX shared library librtabmap_sync_plugins.so[0m
+[342.659s] [ 65%] Built target rtabmap_sync_plugins
+[342.672s] [ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[347.822s] [ 73%] [32m[1mLinking CXX executable rgbd_sync[0m
+[348.685s] [ 73%] Built target rtabmap_rgbd_sync
+[348.700s] [ 78%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[354.200s] [ 82%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[355.048s] [ 82%] Built target rtabmap_rgbdx_sync
+[355.064s] [ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_sync.dir/src/StereoSyncNode.cpp.o[0m
+[360.205s] [ 91%] [32m[1mLinking CXX executable stereo_sync[0m
+[361.071s] [ 91%] Built target rtabmap_stereo_sync
+[361.085s] [ 95%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[366.213s] [100%] [32m[1mLinking CXX executable rgb_sync[0m
+[367.077s] [100%] Built target rtabmap_rgb_sync
+[367.086s] Invoked command in '/home/user/ros2_ws/build/rtabmap_sync' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/home/user/ros2_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/build/rtabmap_python:/home/user/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/user/ros2_ws/build/rtabmap_sync
+[367.136s] Invoking command in '/home/user/ros2_ws/build/rtabmap_sync': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/home/user/ros2_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/build/rtabmap_python:/home/user/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/user/ros2_ws/build/rtabmap_sync
+[367.141s] -- Install configuration: "Release"
+[367.142s] -- Execute custom install script
+[367.142s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+[367.147s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+[367.152s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+[367.158s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+[367.163s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+[367.168s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+[367.174s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+[367.179s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+[367.184s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+[367.191s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+[367.197s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+[367.203s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+[367.208s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+[367.214s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+[367.220s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+[367.225s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+[367.230s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+[367.235s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+[367.240s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+[367.245s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+[367.250s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+[367.255s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+[367.260s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+[367.265s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+[367.270s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+[367.275s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+[367.281s] -- Symlinking: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+[367.286s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+[367.304s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+[367.304s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+[367.308s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include/rtabmap_sync
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+[367.308s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+[367.309s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+[367.309s] -- Installing: /home/user/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake
+[367.311s] Invoked command in '/home/user/ros2_ws/build/rtabmap_sync' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/home/user/ros2_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/user/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/build/rtabmap_python:/home/user/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/user/ros2_ws/build/rtabmap_sync

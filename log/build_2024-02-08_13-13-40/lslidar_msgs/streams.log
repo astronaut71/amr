@@ -1,0 +1,220 @@
+[0.032s] Invoking command in '/home/user/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake /home/user/ros2_ws/src/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/lslidar_msgs
+[0.041s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.121s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.125s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.139s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.140s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.143s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.187s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.255s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.259s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.429s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.740s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.740s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.740s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.762s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.763s] -- Added test 'lint_cmake' to check CMake code style
+[0.763s] -- Added test 'xmllint' to check XML markup files
+[0.766s] -- Configuring done
+[0.804s] -- Generating done
+[0.805s] -- Build files have been written to: /home/user/ros2_ws/build/lslidar_msgs
+[0.810s] Invoked command in '/home/user/ros2_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake /home/user/ros2_ws/src/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/lslidar_msgs
+[0.811s] Invoking command in '/home/user/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --build /home/user/ros2_ws/build/lslidar_msgs
+[0.842s] [  1%] Built target lslidar_msgs__cpp
+[0.850s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_cpp[0m
+[0.860s] [ 12%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[0.868s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_c[0m
+[0.877s] [ 23%] Built target lslidar_msgs__rosidl_generator_c
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.895s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[0.905s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.915s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.923s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c[0m
+[0.931s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.938s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c[0m
+[0.945s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_c
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.966s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[0.980s] [ 79%] Built target lslidar_msgs
+[0.996s] [ 79%] Built target ament_cmake_python_symlink_lslidar_msgs
+[1.118s] running egg_info
+[1.118s] writing lslidar_msgs.egg-info/PKG-INFO
+[1.119s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[1.119s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[1.120s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.120s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.136s] [ 79%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[1.149s] [ 80%] Built target lslidar_msgs__py
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_py[0m
+[1.169s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[1.176s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.183s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.190s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.198s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[1.205s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c__pyext[0m
+[1.213s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[1.220s] Invoked command in '/home/user/ros2_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --build /home/user/ros2_ws/build/lslidar_msgs
+[1.317s] Invoking command in '/home/user/ros2_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --install /home/user/ros2_ws/build/lslidar_msgs
+[1.322s] -- Install configuration: "Release"
+[1.323s] -- Execute custom install script
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[1.323s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[1.324s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[1.325s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[1.326s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[1.327s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[1.328s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[1.329s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[1.330s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[1.330s] -- Symlinking: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[1.336s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[1.336s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[1.336s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.336s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[1.337s] -- Up-to-date symlink: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[1.339s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[1.340s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[1.341s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.342s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[1.342s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[1.343s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[1.344s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[1.366s] Listing '/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[1.366s] Compiling '/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[1.366s] Listing '/home/user/ros2_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[1.369s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-release.cmake
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.370s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-release.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[1.371s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.372s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[1.372s] -- Up-to-date: /home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-release.cmake
+[1.374s] Invoked command in '/home/user/ros2_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/amr_bot /usr/bin/cmake --install /home/user/ros2_ws/build/lslidar_msgs

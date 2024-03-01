@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/ros2_ws/build/amr_bot/cmd_vel_to_odom_node" "/home/user/ros2_ws/build/amr_bot/quatern_to_rpy" "TARGETS" "cmd_vel_to_odom_node" "quatern_to_rpy" "DESTINATION" "lib/amr_bot")

@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/lslidar_msgs/rosidl_generator_c/lslidar_msgs/msg/lslidar_point.h

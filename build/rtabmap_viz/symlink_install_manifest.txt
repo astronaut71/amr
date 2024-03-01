@@ -1,0 +1,16 @@
+/home/user/ros2_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz
+/home/user/ros2_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+/home/user/ros2_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv
+/home/user/ros2_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+/home/user/ros2_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml

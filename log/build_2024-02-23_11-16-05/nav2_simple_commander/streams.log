@@ -1,0 +1,46 @@
+[0.383s] Invoking command in '/home/user/ros2_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/nav2_simple_commander/prefix_override:/home/user/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/ros2_ws/build/nav2_simple_commander/build --no-deps install_data
+[0.518s] running develop
+[0.518s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.518s]   warnings.warn(
+[0.519s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.519s]   warnings.warn(
+[0.605s] running egg_info
+[0.605s] creating nav2_simple_commander.egg-info
+[0.605s] writing nav2_simple_commander.egg-info/PKG-INFO
+[0.605s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[0.605s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[0.606s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[0.606s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[0.606s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.607s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.607s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.608s] running build_ext
+[0.608s] Creating /home/user/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[0.609s] Installing demo_inspection script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing demo_picking script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing demo_recoveries script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing demo_security script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_assisted_teleop script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_follow_path script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_nav_through_poses script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_nav_to_pose script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_waypoint_follower script to /home/user/ros2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] 
+[0.609s] Installed /home/user/ros2_ws/build/nav2_simple_commander
+[0.609s] running install_data
+[0.609s] creating /home/user/ros2_ws/install/nav2_simple_commander/share/ament_index
+[0.609s] creating /home/user/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[0.609s] creating /home/user/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.609s] copying resource/nav2_simple_commander -> /home/user/ros2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.609s] copying package.xml -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/security_demo_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/warehouse.world -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/picking_demo_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/assisted_teleop_example_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/follow_path_example_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/nav_through_poses_example_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/waypoint_follower_example_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/nav_to_pose_example_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/recoveries_example_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.609s] copying launch/inspection_demo_launch.py -> /home/user/ros2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[0.630s] Invoked command in '/home/user/ros2_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/nav2_simple_commander/prefix_override:/home/user/ros2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/user/ros2_ws/build/nav2_simple_commander/build --no-deps install_data

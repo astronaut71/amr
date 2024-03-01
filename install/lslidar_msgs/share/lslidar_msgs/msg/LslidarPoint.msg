@@ -1,0 +1,1 @@
+/home/user/ros2_ws/src/lslidar_msgs/msg/LslidarPoint.msg

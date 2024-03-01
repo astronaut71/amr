@@ -1,0 +1,104 @@
+[0.030s] Invoking command in '/home/user/ros2_ws/build/amr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/amr_bot -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/amr_bot
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.195s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.302s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.354s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.355s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.379s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.382s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.386s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.444s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.516s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.549s] -- Looking for pthread.h
+[0.591s] -- Looking for pthread.h - found
+[0.591s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.634s] -- Found Threads: TRUE  
+[0.722s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.746s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.795s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.994s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.002s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.003s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.003s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.013s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.062s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.063s] -- Configured cppcheck include dirs: 
+[1.063s] -- Configured cppcheck exclude dirs and/or files: 
+[1.064s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.064s] -- Configured cpplint exclude dirs and/or files: 
+[1.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.065s] -- Added test 'lint_cmake' to check CMake code style
+[1.065s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.066s] -- Added test 'uncrustify' to check C / C++ code style
+[1.066s] -- Configured uncrustify additional arguments: 
+[1.066s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done
+[1.076s] -- Generating done
+[1.077s] -- Build files have been written to: /home/user/ros2_ws/build/amr_bot
+[1.086s] Invoked command in '/home/user/ros2_ws/build/amr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/amr_bot -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/amr_bot
+[1.086s] Invoking command in '/home/user/ros2_ws/build/amr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/amr_bot
+[1.117s] [ 25%] [32mBuilding CXX object CMakeFiles/cmd_vel_to_odom_node.dir/src/cmd_vel_to_odom_node.cpp.o[0m
+[1.239s] In file included from [01m[K/home/user/ros2_ws/src/amr_bot/src/cmd_vel_to_odom_node.cpp:11[m[K:
+[1.239s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.239s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.239s]       |  [01;35m[K^~~~~~~[m[K
+[7.139s] [ 50%] [32m[1mLinking CXX executable cmd_vel_to_odom_node[0m
+[7.242s] [ 50%] Built target cmd_vel_to_odom_node
+[7.254s] [ 75%] [32mBuilding CXX object CMakeFiles/quatern_to_rpy.dir/src/quatern_to_rpy.cpp.o[0m
+[7.286s] In file included from [01m[K/home/user/ros2_ws/src/amr_bot/src/quatern_to_rpy.cpp:3[m[K:
+[7.286s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.286s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[7.286s]       |  [01;35m[K^~~~~~~[m[K
+[13.072s] [100%] [32m[1mLinking CXX executable quatern_to_rpy[0m
+[13.169s] [100%] Built target quatern_to_rpy
+[13.176s] Invoked command in '/home/user/ros2_ws/build/amr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/amr_bot
+[13.201s] Invoking command in '/home/user/ros2_ws/build/amr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/amr_bot
+[13.205s] -- Install configuration: "Release"
+[13.206s] -- Execute custom install script
+[13.206s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/lib/amr_bot/cmd_vel_to_odom_node
+[13.210s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/lib/amr_bot/quatern_to_rpy
+[13.215s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/src/cmd_vel_to_odom_node.cpp
+[13.219s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/src/description/amr_bot_description.urdf
+[13.224s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/src/description/inertial_macros.xacro
+[13.228s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/src/description/lidar.xacro
+[13.232s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/src/quatern_to_rpy.cpp
+[13.237s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/launch/display.launch.py
+[13.241s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/rviz/urdf_config.rviz
+[13.246s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/config/ekf.yaml
+[13.250s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/config/mapper_params_online_async.yaml
+[13.255s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/config/nav2_params.yaml
+[13.259s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/ament_index/resource_index/package_run_dependencies/amr_bot
+[13.264s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/ament_index/resource_index/parent_prefix_path/amr_bot
+[13.269s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/environment/ament_prefix_path.sh
+[13.274s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/environment/ament_prefix_path.dsv
+[13.279s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/environment/path.sh
+[13.283s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/environment/path.dsv
+[13.288s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/local_setup.bash
+[13.294s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/local_setup.sh
+[13.299s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/local_setup.zsh
+[13.304s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/local_setup.dsv
+[13.308s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/package.dsv
+[13.313s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/ament_index/resource_index/packages/amr_bot
+[13.317s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/cmake/amr_botConfig.cmake
+[13.322s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/cmake/amr_botConfig-version.cmake
+[13.326s] -- Symlinking: /home/user/ros2_ws/install/amr_bot/share/amr_bot/package.xml
+[13.332s] Invoked command in '/home/user/ros2_ws/build/amr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/amr_bot

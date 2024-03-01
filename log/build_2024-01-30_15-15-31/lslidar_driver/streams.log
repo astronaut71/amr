@@ -1,0 +1,173 @@
+[0.029s] Invoking command in '/home/user/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/lslidar_msgs/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/ros2_ws/src/lslidar_driver -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/lslidar_driver
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.307s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.308s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.446s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.489s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.556s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.631s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.665s] -- Found Threads: TRUE  
+[0.758s] -- Checking for module 'eigen3'
+[0.766s] --   Found eigen3, version 3.4.0
+[0.785s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.785s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.796s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.806s] -- Checking for module 'flann'
+[0.814s] --   Found flann, version 1.9.1
+[0.836s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.836s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.859s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.863s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.950s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.950s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.952s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.957s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.967s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.973s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.027s] -- Found X11: /usr/include   
+[1.027s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.078s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.078s] -- Looking for gethostbyname
+[1.122s] -- Looking for gethostbyname - found
+[1.122s] -- Looking for connect
+[1.166s] -- Looking for connect - found
+[1.166s] -- Looking for remove
+[1.210s] -- Looking for remove - found
+[1.210s] -- Looking for shmat
+[1.254s] -- Looking for shmat - found
+[1.254s] -- Looking for IceConnectionNumber in ICE
+[1.298s] -- Looking for IceConnectionNumber in ICE - found
+[1.348s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.349s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.351s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.352s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.360s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.363s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.365s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.368s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.416s] -- Checking for module 'libusb-1.0'
+[1.424s] --   Found libusb-1.0, version 1.0.25
+[1.446s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.447s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.447s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.480s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.480s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.480s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.570s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.574s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.578s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.663s] -- Found Qhull version 8.0.2
+[1.752s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.836s] -- looking for PCL_COMMON
+[1.836s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.836s] -- looking for PCL_KDTREE
+[1.837s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.837s] -- looking for PCL_OCTREE
+[1.837s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.837s] -- looking for PCL_SEARCH
+[1.838s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.838s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.838s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.838s] -- looking for PCL_FILTERS
+[1.839s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.839s] -- looking for PCL_2D
+[1.839s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.839s] -- looking for PCL_GEOMETRY
+[1.839s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.839s] -- looking for PCL_IO
+[1.840s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.840s] -- looking for PCL_FEATURES
+[1.840s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.840s] -- looking for PCL_ML
+[1.841s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.841s] -- looking for PCL_SEGMENTATION
+[1.841s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.842s] -- looking for PCL_VISUALIZATION
+[1.842s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.842s] -- looking for PCL_SURFACE
+[1.843s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.843s] -- looking for PCL_REGISTRATION
+[1.843s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.843s] -- looking for PCL_KEYPOINTS
+[1.844s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.844s] -- looking for PCL_TRACKING
+[1.845s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.845s] -- looking for PCL_RECOGNITION
+[1.845s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.845s] -- looking for PCL_STEREO
+[1.846s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.846s] -- looking for PCL_APPS
+[1.847s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.847s] -- looking for PCL_IN_HAND_SCANNER
+[1.847s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.847s] -- looking for PCL_MODELER
+[1.847s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.847s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.848s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.848s] -- looking for PCL_OUTOFCORE
+[1.848s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.848s] -- looking for PCL_PEOPLE
+[1.849s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.849s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[1.851s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.891s] -- Found lslidar_msgs: 1.2.0 (/home/user/ros2_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[1.920s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.935s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.179s] -- Configuring done
+[2.205s] -- Generating done
+[2.206s] -- Build files have been written to: /home/user/ros2_ws/build/lslidar_driver
+[2.220s] Invoked command in '/home/user/ros2_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/lslidar_msgs/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/ros2_ws/src/lslidar_driver -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/lslidar_driver
+[2.221s] Invoking command in '/home/user/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/lslidar_msgs/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/ros2_ws/build/lslidar_driver
+[2.256s] [ 25%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[7.574s] [ 50%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[15.990s] [ 75%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[18.024s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[18.245s] [100%] Built target lslidar_driver_node
+[18.253s] Invoked command in '/home/user/ros2_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/lslidar_msgs/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/ros2_ws/build/lslidar_driver
+[18.274s] Invoking command in '/home/user/ros2_ws/build/lslidar_driver': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/lslidar_msgs/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/ros2_ws/build/lslidar_driver
+[18.279s] -- Install configuration: "Release"
+[18.279s] -- Execute custom install script
+[18.280s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[18.285s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_launch.py
+[18.290s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsn301.yaml
+[18.295s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsn301_1.yaml
+[18.300s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/params/lsn301_2.yaml
+[18.305s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[18.310s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[18.315s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[18.320s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[18.325s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[18.330s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[18.336s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[18.341s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[18.346s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[18.350s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[18.355s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[18.360s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[18.365s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[18.370s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[18.375s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.380s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.385s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[18.390s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[18.395s] -- Symlinking: /home/user/ros2_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[18.401s] Invoked command in '/home/user/ros2_ws/build/lslidar_driver' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lidar_odometry:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/lslidar_msgs/lib:/home/user/ros2_ws/install/rtabmap_slam/lib:/home/user/ros2_ws/install/rtabmap_odom/lib:/home/user/ros2_ws/install/rtabmap_util/lib:/home/user/ros2_ws/install/rtabmap_sync/lib:/home/user/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/user/ros2_ws/install/rtabmap_conversions/lib:/home/user/ros2_ws/install/rtabmap_msgs/lib:/home/user/ros2_ws/install/rtabmap/lib:/home/user/ros2_ws/install/serial/lib:/home/user/ros2_ws/install/realsense2_camera/lib:/home/user/ros2_ws/install/realsense2_camera_msgs/lib:/home/user/ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/ros2_ws/build/lslidar_driver

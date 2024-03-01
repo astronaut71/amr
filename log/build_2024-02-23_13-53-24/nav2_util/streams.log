@@ -1,0 +1,74 @@
+[0.033s] Invoking command in '/home/user/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/build/nav2_util
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target nav2_util_core[0m
+[0.083s] [ 26%] Built target nav2_util_core
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_bringup[0m
+[0.100s] [ 31%] Built target lifecycle_bringup
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.115s] [ 36%] Built target gtest_main
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.130s] [ 42%] Built target gtest
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target test_execution_timer[0m
+[0.145s] [ 47%] Built target test_execution_timer
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target test_node_utils[0m
+[0.162s] [ 52%] Built target test_node_utils
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target test_service_client[0m
+[0.182s] [ 57%] Built target test_service_client
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target test_string_utils[0m
+[0.199s] [ 63%] Built target test_string_utils
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_utils[0m
+[0.218s] [ 68%] Built target test_lifecycle_utils
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target test_actions[0m
+[0.236s] [ 73%] Built target test_actions
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_node[0m
+[0.255s] [ 78%] Built target test_lifecycle_node
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_cli_node[0m
+[0.274s] [ 84%] Built target test_lifecycle_cli_node
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target test_geometry_utils[0m
+[0.293s] [ 89%] Built target test_geometry_utils
+[0.300s] [35m[1mConsolidate compiler generated dependencies of target test_odometry_utils[0m
+[0.311s] [ 94%] Built target test_odometry_utils
+[0.318s] [35m[1mConsolidate compiler generated dependencies of target test_robot_utils[0m
+[0.330s] [100%] Built target test_robot_utils
+[0.337s] Invoked command in '/home/user/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/build/nav2_util
+[0.361s] Invoking command in '/home/user/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/build/nav2_util
+[0.367s] -- Install configuration: "Release"
+[0.367s] -- Execute custom install script
+[0.367s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/lib/libnav2_util_core.so
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[0.368s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[0.369s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[0.369s] -- Symlinking: /home/user/ros2_ws/install/nav2_util/share/nav2_util/package.dsv
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[0.376s] -- Up-to-date symlink: /home/user/ros2_ws/install/nav2_util/share/nav2_util/package.xml
+[0.378s] Invoked command in '/home/user/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/build/nav2_util

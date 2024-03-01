@@ -1,0 +1,130 @@
+[0.036s] Invoking command in '/home/user/ros2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_costmap_2d/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/ros2_ws/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/nav2_collision_monitor
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.203s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.207s] -- Detecting CXX compile features
+[0.207s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.314s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.349s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.374s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.406s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.416s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.487s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.551s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.568s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.605s] -- Looking for pthread.h
+[0.650s] -- Looking for pthread.h - found
+[0.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.696s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.697s] -- Found Threads: TRUE  
+[0.788s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.827s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.907s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[0.913s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.062s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.074s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.075s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.075s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.080s] -- Found nav2_common: 1.1.13 (/home/user/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.080s] -- Found nav2_util: 1.1.13 (/home/user/ros2_ws/install/nav2_util/share/nav2_util/cmake)
+[1.382s] -- Found nav2_costmap_2d: 1.1.13 (/home/user/ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[1.968s] -- Setting build type to Release as none was specified.
+[4.170s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.223s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.630s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.630s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/navigation2/nav2_collision_monitor/include
+[8.630s] -- Configured cppcheck exclude dirs and/or files: 
+[8.630s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.631s] -- Added test 'lint_cmake' to check CMake code style
+[8.631s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.632s] -- Added test 'uncrustify' to check C / C++ code style
+[8.632s] -- Configured uncrustify additional arguments: 
+[8.633s] -- Added test 'xmllint' to check XML markup files
+[8.634s] -- Configuring done
+[8.738s] -- Generating done
+[8.739s] -- Build files have been written to: /home/user/ros2_ws/build/nav2_collision_monitor
+[8.748s] Invoked command in '/home/user/ros2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_costmap_2d/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/ros2_ws/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/nav2_collision_monitor
+[8.749s] Invoking command in '/home/user/ros2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_costmap_2d/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/build/nav2_collision_monitor
+[8.783s] [  4%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[15.266s] [  8%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[18.550s] [ 13%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[20.276s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[21.973s] [ 21%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[27.435s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[33.454s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[39.413s] [ 34%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[39.538s] [ 39%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[39.804s] [ 39%] Built target collision_monitor_core
+[39.819s] [ 43%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[41.961s] [ 47%] [32m[1mLinking CXX executable collision_monitor[0m
+[42.121s] [ 47%] Built target collision_monitor
+[42.135s] [ 52%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[42.626s] [ 56%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[42.648s] [ 56%] Built target gtest_main
+[42.663s] [ 60%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[46.851s] [ 65%] [32m[1mLinking CXX static library libgtest.a[0m
+[46.879s] [ 65%] Built target gtest
+[46.895s] [ 69%] [32mBuilding CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o[0m
+[48.910s] [ 73%] [32m[1mLinking CXX executable kinematics_test[0m
+[49.133s] [ 73%] Built target kinematics_test
+[49.148s] [ 78%] [32mBuilding CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o[0m
+[54.759s] [ 82%] [32m[1mLinking CXX executable sources_test[0m
+[55.037s] [ 82%] Built target sources_test
+[55.053s] [ 86%] [32mBuilding CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o[0m
+[62.837s] [ 91%] [32m[1mLinking CXX executable polygons_test[0m
+[63.105s] [ 91%] Built target polygons_test
+[63.119s] [ 95%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[72.534s] [100%] [32m[1mLinking CXX executable collision_monitor_node_test[0m
+[72.809s] [100%] Built target collision_monitor_node_test
+[72.817s] Invoked command in '/home/user/ros2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_costmap_2d/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/build/nav2_collision_monitor
+[72.853s] Invoking command in '/home/user/ros2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_costmap_2d/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/build/nav2_collision_monitor
+[72.858s] -- Install configuration: "Release"
+[72.858s] -- Execute custom install script
+[72.858s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[72.865s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[72.870s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[72.875s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[72.880s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[72.885s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[72.890s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[72.895s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[72.901s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[72.907s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[72.912s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[72.918s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[72.923s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[72.929s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[72.934s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[72.939s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[72.945s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[72.950s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[72.956s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[72.961s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[72.966s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[72.971s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[72.977s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[72.982s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[72.987s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[72.992s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[72.997s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[73.002s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[73.007s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.013s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[73.018s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.023s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[73.029s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[73.034s] -- Symlinking: /home/user/ros2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[73.040s] Invoked command in '/home/user/ros2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/nav2_costmap_2d:/home/user/ros2_ws/install/nav2_util:/home/user/ros2_ws/install/nav2_voxel_grid:/home/user/ros2_ws/install/nav2_msgs:/home/user/ros2_ws/install/nav2_common:/home/user/ros2_ws/install/slam_toolbox:/home/user/ros2_ws/install/slam_gmapping:/home/user/ros2_ws/install/serial:/home/user/ros2_ws/install/imu_tools:/home/user/ros2_ws/install/rviz_imu_plugin:/home/user/ros2_ws/install/rtabmap_ros:/home/user/ros2_ws/install/rtabmap_launch:/home/user/ros2_ws/install/rtabmap_examples:/home/user/ros2_ws/install/rtabmap_demos:/home/user/ros2_ws/install/rtabmap_viz:/home/user/ros2_ws/install/rtabmap_slam:/home/user/ros2_ws/install/rtabmap_odom:/home/user/ros2_ws/install/rtabmap_util:/home/user/ros2_ws/install/rtabmap_sync:/home/user/ros2_ws/install/rtabmap_rviz_plugins:/home/user/ros2_ws/install/rtabmap_conversions:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble:/home/user/ros2_ws/install/rtabmap_msgs:/home/user/ros2_ws/install/rtabmap:/home/user/ros2_ws/install/roboteq_ros2_driver:/home/user/ros2_ws/install/realsense2_description:/home/user/ros2_ws/install/realsense2_camera:/home/user/ros2_ws/install/realsense2_camera_msgs:/home/user/ros2_ws/install/openslam_gmapping:/home/user/ros2_ws/install/lslidar_driver:/home/user/ros2_ws/install/lslidar_msgs:/home/user/ros2_ws/install/imu_filter_madgwick:/home/user/ros2_ws/install/imu_complementary_filter:/home/user/ros2_ws/install/amr_bot LD_LIBRARY_PATH=/home/user/ros2_ws/install/nav2_costmap_2d/lib:/home/user/ros2_ws/install/nav2_util/lib:/home/user/ros2_ws/install/nav2_voxel_grid/lib:/home/user/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/build/nav2_collision_monitor

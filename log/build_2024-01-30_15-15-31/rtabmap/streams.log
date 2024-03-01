@@ -1,0 +1,935 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/rtabmap
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.144s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.144s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.196s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.201s] -- Detecting CXX compile features - done
+[0.202s] -- MOBILE_BUILD=OFF
+[0.217s] -- Checking for module 'eigen3'
+[0.224s] --   Found eigen3, version 3.4.0
+[0.244s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.244s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.291s] -- Checking for module 'libusb-1.0'
+[0.298s] --   Found libusb-1.0, version 1.0.25
+[0.320s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.320s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.936s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.944s] -- Checking for module 'flann'
+[0.952s] --   Found flann, version 1.9.1
+[0.977s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.977s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.978s] -- Found Qhull version 8.0.2
+[1.224s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.307s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.307s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.308s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.308s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.309s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.309s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.310s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.310s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.311s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.311s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.312s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.312s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.312s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.313s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.313s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.314s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[1.316s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[1.461s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.511s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.511s] -- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+[1.511s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[1.511s] -- Add PCL_OMP to definitions
+[1.511s] -- Found OpenCV: /usr/include/opencv4
+[1.511s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[1.511s] -- Found ZLIB: /usr/include
+[1.520s] -- Found Threads: TRUE  
+[1.521s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.522s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.691s] -- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[1.697s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.697s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.819s] -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C HL 
+[1.821s] -- Found NetCDF: /usr/include (found version "4.8.1") 
+[1.822s] -- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  
+[1.823s] -- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  
+[1.825s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.861s] -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+[1.871s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.874s] -- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") 
+[1.877s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.878s] -- Found SQLite3: /usr/include (found version "3.37.2") 
+[1.881s] -- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "8.2.1") 
+[1.883s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.896s] -- Found X11: /usr/include   
+[1.918s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.919s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.920s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.921s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.926s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.927s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.929s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.932s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.939s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[1.941s] -- VTK_RENDERING_BACKEND=
+[1.966s] -- Found OpenNI2: /usr/include/openni2
+[1.966s] -- Found DC1394: /usr/include/dc1394
+[1.974s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "2.91.0") 
+[1.975s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.976s] -- Found g2o (targets)
+[1.976s] -- g2o include dir: /opt/ros/humble/include
+[1.976s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[1.991s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[1.996s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[1.996s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[1.996s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[1.996s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[1.996s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[2.001s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[2.005s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[2.006s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[2.009s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[2.013s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[2.024s] -- Found RealSense2: 
+[2.030s] -- Found octomap 1.9.8: /opt/ros/humble/include
+[2.070s] -- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+[2.073s] -- Architecture: x86_64
+[2.079s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[2.124s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[2.127s] -- Found Pthreads
+[2.129s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.176s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.177s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.227s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.227s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.276s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.312s] -- --------------------------------------------
+[2.312s] -- Info :
+[2.312s] --   RTAB-Map Version =     0.21.4
+[2.312s] --   CMAKE_VERSION =        3.22.1
+[2.312s] --   CMAKE_INSTALL_PREFIX = /home/user/ros2_ws/install/rtabmap
+[2.312s] --   CMAKE_BUILD_TYPE =     Release
+[2.312s] --   CMAKE_INSTALL_LIBDIR = lib
+[2.312s] --   BUILD_APP =            ON
+[2.312s] --   BUILD_TOOLS =          ON
+[2.312s] --   BUILD_EXAMPLES =       ON
+[2.312s] --   BUILD_SHARED_LIBS =    ON
+[2.312s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+[2.312s] --   FLANN_KDTREE_MEM_OPT = OFF
+[2.312s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[2.312s] --   PCL_VERSION = 1.12.1
+[2.312s] -- 
+[2.312s] -- Optional dependencies ('*' affects some default parameters) :
+[2.312s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[2.312s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[2.312s] --   With VTK 9.1              = YES (License: BSD)
+[2.312s] --   With external SQLite3     = YES (License: Public Domain)
+[2.312s] --   With ORB OcTree           = YES (License: GPLv3)
+[2.312s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[2.312s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[2.312s] --   With Madgwick             = YES (License: GPL)
+[2.312s] --   With FastCV               = NO (FastCV not found)
+[2.312s] --   With PDAL                 = NO (PDAL not found)
+[2.312s] -- 
+[2.312s] --  Solvers:
+[2.312s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[2.312s] --  *With g2o 1.0.0            = YES (License: BSD)
+[2.312s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[2.312s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[2.312s] --   With MRPT                 = NO (MRPT not found)
+[2.313s] --   With VERTIGO              = YES (License: GPLv3)
+[2.313s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[2.313s] --  *With libpointmatcher 1.3.1 = YES (License: BSD)
+[2.313s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[2.313s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[2.313s] --   With OpenGV               = NO (OpenGV not found)
+[2.313s] -- 
+[2.313s] --  Reconstruction Approaches:
+[2.313s] --   With OctoMap 1.9.8        = YES (License: BSD)
+[2.313s] --   With GridMap 2.0.0        = YES (License: BSD)
+[2.313s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[2.313s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[2.313s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[2.313s] -- 
+[2.313s] --  Camera Drivers:
+[2.313s] --   With Freenect             = NO (libfreenect not found)
+[2.313s] --   With OpenNI2              = YES (License: Apache v2)
+[2.313s] --   With Freenect2            = NO (libfreenect2 not found)
+[2.313s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[2.313s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[2.313s] --   With dc1394               = YES (License: LGPL)
+[2.313s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[2.313s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[2.313s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[2.313s] --   With RealSense            = NO (librealsense not found)
+[2.313s] --   With RealSense2 2.54.1    = YES (License: Apache-2)
+[2.313s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[2.313s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[2.313s] -- 
+[2.313s] --  Odometry Approaches:
+[2.313s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[2.313s] --   With floam                = NO (WITH_FLOAM=OFF)
+[2.313s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[2.314s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[2.314s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[2.314s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[2.314s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[2.314s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[2.314s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[2.314s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[2.314s] -- Show all options with: cmake -LA | grep WITH_
+[2.314s] -- --------------------------------------------
+[2.314s] -- Configuring done
+[2.500s] -- Generating done
+[2.504s] -- Build files have been written to: /home/user/ros2_ws/build/rtabmap
+[2.525s] Invoked command in '/home/user/ros2_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/rtabmap
+[2.527s] Invoking command in '/home/user/ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/rtabmap
+[2.556s] [  0%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsManager.cpp.o[0m
+[2.917s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsHandler.cpp.o[0m
+[3.072s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsSender.cpp.o[0m
+[3.220s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UFile.cpp.o[0m
+[3.515s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UDirectory.cpp.o[0m
+[3.973s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UConversion.cpp.o[0m
+[4.434s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/ULogger.cpp.o[0m
+[4.950s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UThread.cpp.o[0m
+[5.127s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UTimer.cpp.o[0m
+[5.266s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UProcessInfo.cpp.o[0m
+[5.544s] [  5%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UVariant.cpp.o[0m
+[5.936s] [  5%] [32m[1mLinking CXX shared library ../../bin/librtabmap_utilite.so[0m
+[5.991s] [  5%] Built target rtabmap_utilite
+[6.003s] [  5%] [32mBuilding CXX object utilite/resource_generator/CMakeFiles/res_tool.dir/main.cpp.o[0m
+[6.442s] [  5%] [32m[1mLinking CXX executable ../../bin/rtabmap-res_tool[0m
+[6.492s] [  5%] Built target res_tool
+[6.499s] [  5%] [34m[1m[Creating resources][0m
+[6.501s]  Using namespace=rtabmap
+[6.501s]  Using target directory=/home/user/ros2_ws/build/rtabmap/corelib/src
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/DatabaseSchema.sql" size = 5900 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_sql.h" size = 12027 bytes
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_3.sql" size = 5749 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_3_sql.h" size = 11753 bytes
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_0.sql" size = 5749 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_0_sql.h" size = 11753 bytes
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_17_0.sql" size = 5432 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_0_17_0_sql.h" size = 11119 bytes
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_2.sql" size = 5362 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_2_sql.h" size = 10979 bytes
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_1.sql" size = 5286 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_1_sql.h" size = 10827 bytes
+[6.501s] Input file "/home/user/ros2_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_0.sql" size = 5273 bytes
+[6.501s] Output file "/home/user/ros2_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_0_sql.h" size = 10801 bytes
+[6.513s] [  5%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Rtabmap.cpp.o[0m
+[17.249s] [  6%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RtabmapThread.cpp.o[0m
+[21.807s] [  6%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Statistics.cpp.o[0m
+[24.814s] [  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o[0m
+[34.698s] [  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriver.cpp.o[0m
+[38.977s] [  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriverSqlite3.cpp.o[0m
+[46.571s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBReader.cpp.o[0m
+[50.649s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Recovery.cpp.o[0m
+[54.287s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Camera.cpp.o[0m
+[55.674s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraThread.cpp.o[0m
+[61.086s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraModel.cpp.o[0m
+[62.959s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[65.424s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect2.cpp.o[0m
+[67.864s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraImages.cpp.o[0m
+[72.037s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4W2.cpp.o[0m
+[74.492s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4A.cpp.o[0m
+[76.909s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenni.cpp.o[0m
+[80.196s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNI2.cpp.o[0m
+[83.228s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNICV.cpp.o[0m
+[84.797s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense.cpp.o[0m
+[87.243s] [ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense2.cpp.o[0m
+[91.535s] [ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRGBDImages.cpp.o[0m
+[93.146s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoDC1394.cpp.o[0m
+[94.839s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoFlyCapture2.cpp.o[0m
+[96.153s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoImages.cpp.o[0m
+[97.867s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoVideo.cpp.o[0m
+[99.522s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZed.cpp.o[0m
+[100.825s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZedOC.cpp.o[0m
+[102.155s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoTara.cpp.o[0m
+[103.806s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraVideo.cpp.o[0m
+[105.145s] [ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraMyntEye.cpp.o[0m
+[106.449s] [ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraDepthAI.cpp.o[0m
+[108.868s] [ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/EpipolarGeometry.cpp.o[0m
+[112.431s] [ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VisualWord.cpp.o[0m
+[112.926s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VWDictionary.cpp.o[0m
+[116.798s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/BayesFilter.cpp.o[0m
+[120.411s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Parameters.cpp.o[0m
+[128.562s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Signature.cpp.o[0m
+[132.065s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Features2d.cpp.o[0m
+[136.305s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Transform.cpp.o[0m
+[140.191s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GeodeticCoords.cpp.o[0m
+[140.636s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util2d.cpp.o[0m
+[144.880s] [ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d.cpp.o[0m
+[152.103s] [ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_filtering.cpp.o[0m
+[162.279s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_mapping.cpp.o[0m
+[166.255s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_transforms.cpp.o[0m
+[168.803s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_registration.cpp.o[0m
+[182.071s] [ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_surface.cpp.o[0m
+[193.928s] [ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_features.cpp.o[0m
+[197.392s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_correspondences.cpp.o[0m
+[200.940s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_motion_estimation.cpp.o[0m
+[204.682s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorData.cpp.o[0m
+[207.438s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Graph.cpp.o[0m
+[213.354s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Compression.cpp.o[0m
+[214.331s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Link.cpp.o[0m
+[215.630s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LaserScan.cpp.o[0m
+[216.404s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Optimizer.cpp.o[0m
+[220.810s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerTORO.cpp.o[0m
+[224.409s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerG2O.cpp.o[0m
+[243.190s] [ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerGTSAM.cpp.o[0m
+[258.500s] [ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCVSBA.cpp.o[0m
+[261.382s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCeres.cpp.o[0m
+[264.305s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Registration.cpp.o[0m
+[267.481s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationIcp.cpp.o[0m
+[274.723s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationVis.cpp.o[0m
+[284.196s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Odometry.cpp.o[0m
+[292.017s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/OdometryThread.cpp.o[0m
+[295.093s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2M.cpp.o[0m
+[301.417s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMono.cpp.o[0m
+[306.350s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2F.cpp.o[0m
+[310.321s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFovis.cpp.o[0m
+[312.840s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryViso2.cpp.o[0m
+[315.298s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryDVO.cpp.o[0m
+[317.756s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOkvis.cpp.o[0m
+[320.809s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM2.cpp.o[0m
+[324.253s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM3.cpp.o[0m
+[327.693s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryLOAM.cpp.o[0m
+[331.126s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFLOAM.cpp.o[0m
+[334.549s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMSCKF.cpp.o[0m
+[337.534s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryVINS.cpp.o[0m
+[340.567s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpenVINS.cpp.o[0m
+[343.790s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpen3D.cpp.o[0m
+[346.200s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMU.cpp.o[0m
+[347.029s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUThread.cpp.o[0m
+[348.813s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUFilter.cpp.o[0m
+[350.332s] [ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/ComplementaryFilter.cpp.o[0m
+[351.925s] [ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Stereo.cpp.o[0m
+[354.193s] [ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoDense.cpp.o[0m
+[355.768s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoCameraModel.cpp.o[0m
+[358.198s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoBM.cpp.o[0m
+[359.874s] [ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoSGBM.cpp.o[0m
+[361.528s] [ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GlobalMap.cpp.o[0m
+[363.319s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGridMaker.cpp.o[0m
+[368.593s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGrid.cpp.o[0m
+[370.395s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OccupancyGrid.cpp.o[0m
+[374.186s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/CloudMap.cpp.o[0m
+[377.949s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/MarkerDetector.cpp.o[0m
+[380.585s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GainCompensator.cpp.o[0m
+[384.203s] [ 46%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4.c.o[0m
+[385.142s] [ 46%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4hc.c.o[0m
+[385.370s] [ 47%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/FlannIndex.cpp.o[0m
+[396.878s] [ 47%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model_helpers.cpp.o[0m
+[398.207s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model.cpp.o[0m
+[400.874s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/frame_projector.cpp.o[0m
+[404.102s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/slam_calibrator.cpp.o[0m
+[406.213s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/ORBextractor.cc.o[0m
+[407.436s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/solvepnp.cpp.o[0m
+[408.292s] [ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/five-point.cpp.o[0m
+[410.392s] [ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph3.cpp.o[0m
+[411.413s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3_iteration.cpp.o[0m
+[411.942s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3.cpp.o[0m
+[412.639s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph2.cpp.o[0m
+[413.376s] [ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer2.cpp.o[0m
+[413.866s] [ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_se2Switchable.cpp.o[0m
+[416.610s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_se3Switchable.cpp.o[0m
+[420.927s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_switchPrior.cpp.o[0m
+[421.898s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/types_g2o_robust.cpp.o[0m
+[423.844s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/vertex_switchLinear.cpp.o[0m
+[425.198s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OctoMap.cpp.o[0m
+[431.564s] [ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/GridMap.cpp.o[0m
+[435.931s] [ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/gtsam/GravityFactor.cpp.o[0m
+[438.501s] [ 56%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/MadgwickFilter.cpp.o[0m
+[440.140s] [ 56%] [32m[1mLinking CXX shared library ../../bin/librtabmap_core.so[0m
+[444.018s] [ 56%] Built target rtabmap_core
+[444.029s] [ 56%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[452.379s] [ 56%] Built target rtabmap_gui_autogen
+[452.385s] [ 56%] [34m[1mAutomatic RCC for GuiLib.qrc[0m
+[452.416s] [ 57%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/mocs_compilation.cpp.o[0m
+[458.179s] [ 57%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MainWindow.cpp.o[0m
+[461.998s] In file included from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[461.998s] [01m[K/home/user/ros2_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:[m[K In member function ‘[01m[Kvoid Ui_mainWindow::setupUi(QMainWindow*)[m[K’:
+[461.998s] [01m[K/home/user/ros2_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:641:56:[m[K [01;35m[Kwarning: [m[K‘[01m[KQDockWidget::AllDockWidgetFeatures[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[461.998s]   641 |         dockWidget_posterior->setFeatures(QDockWidget::[01;35m[KAllDockWidgetFeatures[m[K);
+[461.998s]       |                                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[461.998s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget:1[m[K,
+[461.998s]                  from [01m[K/home/user/ros2_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:16[m[K,
+[461.998s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[461.998s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h:82:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[461.998s]    82 |         [01;36m[KAllDockWidgetFeatures[m[K Q_DECL_ENUMERATOR_DEPRECATED =
+[461.998s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[461.998s] In file included from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[461.998s] [01m[K/home/user/ros2_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:641:56:[m[K [01;35m[Kwarning: [m[K‘[01m[KQDockWidget::AllDockWidgetFeatures[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[461.999s]   641 |         dockWidget_posterior->setFeatures(QDockWidget::[01;35m[KAllDockWidgetFeatures[m[K);
+[461.999s]       |                                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[461.999s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget:1[m[K,
+[461.999s]                  from [01m[K/home/user/ros2_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:16[m[K,
+[461.999s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[461.999s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h:82:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[461.999s]    82 |         [01;36m[KAllDockWidgetFeatures[m[K Q_DECL_ENUMERATOR_DEPRECATED =
+[461.999s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[463.995s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:[m[K In member function ‘[01m[Kvoid rtabmap::MainWindow::drawKeypoints(const std::multimap<int, cv::KeyPoint>&, const std::multimap<int, cv::KeyPoint>&)[m[K’:
+[463.995s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QSet<T> QSet<T>::fromList(const QList<T>&) [with T = int][m[K’ is deprecated: Use QSet<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[463.995s]  5049 |                 _lastIds = QSet<int>::[01;35m[KfromList[m[K(QList<int>::fromStdList(kpts));
+[463.995s]       |                                       [01;35m[K^~~~~~~~[m[K
+[463.995s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:1[m[K,
+[463.995s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:35[m[K,
+[463.995s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[463.995s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:416:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[463.995s]   416 | QSet<T> [01;36m[KQSet<T>[m[K::fromList(const QList<T> &list)
+[463.995s]       |         [01;36m[K^~~~~~~[m[K
+[463.995s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[463.995s]  5049 |                 _lastIds = QSet<int>::fromList(QList<int>::[01;35m[KfromStdList[m[K(kpts));
+[463.995s]       |                                                            [01;35m[K^~~~~~~~~~~[m[K
+[463.996s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[463.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[463.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[463.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[463.996s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:34[m[K,
+[463.996s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[463.996s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[463.996s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[463.996s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[463.996s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[463.996s]  5049 |                 _lastIds = QSet<int>::fromList([01;35m[KQList<int>::fromStdList(kpts)[m[K);
+[463.996s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[463.996s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[463.996s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[463.997s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[463.997s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[463.997s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:34[m[K,
+[463.997s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[463.997s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[463.997s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[463.997s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[463.997s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QSet<T> QSet<T>::fromList(const QList<T>&) [with T = int][m[K’ is deprecated: Use QSet<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[463.997s]  5049 |                 _lastIds = [01;35m[KQSet<int>::fromList(QList<int>::fromStdList(kpts))[m[K;
+[463.997s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[463.997s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:1[m[K,
+[463.997s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:35[m[K,
+[463.997s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[463.997s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:416:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[463.997s]   416 | QSet<T> [01;36m[KQSet<T>[m[K::fromList(const QList<T> &list)
+[463.997s]       |         [01;36m[K^~~~~~~[m[K
+[473.747s] [ 58%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PreferencesDialog.cpp.o[0m
+[498.918s] [ 58%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/KeypointItem.cpp.o[0m
+[499.762s] [ 59%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ImageView.cpp.o[0m
+[503.359s] [ 59%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PdfPlot.cpp.o[0m
+[507.257s] [ 59%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/StatsToolBox.cpp.o[0m
+[508.424s] [ 60%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ProgressDialog.cpp.o[0m
+[509.127s] [ 60%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/AboutDialog.cpp.o[0m
+[514.338s] [ 61%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ConsoleWidget.cpp.o[0m
+[515.126s] [ 61%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DatabaseViewer.cpp.o[0m
+[521.192s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:[m[K In member function ‘[01m[Kvoid rtabmap::DatabaseViewer::updateIds()[m[K’:
+[521.192s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:1722:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[521.192s]  1722 |         ids_ = QList<int>::[01;35m[KfromStdList[m[K(std::list<int>(ids.begin(), ids.end()));
+[521.192s]       |                            [01;35m[K^~~~~~~~~~~[m[K
+[521.192s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[521.192s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[521.192s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[521.192s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[521.192s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/DatabaseViewer.h:33[m[K,
+[521.192s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:28[m[K:
+[521.192s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[521.192s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[521.192s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[521.193s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:1722:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[521.193s]  1722 |         ids_ = [01;35m[KQList<int>::fromStdList(std::list<int>(ids.begin(), ids.end()))[m[K;
+[521.193s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[521.193s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[521.193s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[521.193s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[521.193s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[521.193s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/DatabaseViewer.h:33[m[K,
+[521.193s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:28[m[K:
+[521.193s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[521.193s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[521.193s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[521.326s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:[m[K In member function ‘[01m[Kvoid rtabmap::DatabaseViewer::regenerateCurrentLocalMaps()[m[K’:
+[521.326s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:3949:39:[m[K [01;35m[Kwarning: [m[K‘[01m[KQList<T> QSet<T>::toList() const [with T = int][m[K’ is deprecated: Use values() instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[521.326s]  3949 |         QList<int> ids = [01;35m[KidsSet.toList()[m[K;
+[521.326s]       |                          [01;35m[K~~~~~~~~~~~~~^~[m[K
+[521.326s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:1[m[K,
+[521.326s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/DatabaseViewer.h:36[m[K,
+[521.326s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:28[m[K:
+[521.326s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:265:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[521.326s]   265 |     QList<T> [01;36m[KtoList[m[K() const { return values(); }
+[521.326s]       |              [01;36m[K^~~~~~[m[K
+[533.274s] [ 61%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/utilite/UPlot.cpp.o[0m
+[533.951s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:[m[K In member function ‘[01m[Kvoid UPlotCurve::draw(QPainter*, const QRect&)[m[K’:
+[533.951s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:795:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[533.951s]   795 |                                   type = [01;35m[KlineItem->line().intersect(QLineF(limits.topLeft(), limits.bottomLeft()), &intersection)[m[K;
+[533.951s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[533.951s] 
+[533.951s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[533.951s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[533.951s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[533.951s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[533.951s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[533.951s]       |                   [01;36m[K^~~~~~~~~[m[K
+[533.951s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:806:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[533.951s]   806 |                                   type = [01;35m[KlineItem->line().intersect(QLineF(limits.topLeft(), limits.topRight()), &intersection)[m[K;
+[533.951s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[533.951s] 
+[533.951s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[533.951s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[533.952s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[533.952s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[533.952s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[533.952s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[533.952s]       |                   [01;36m[K^~~~~~~~~[m[K
+[533.952s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:817:90:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[533.952s]   817 |                                   type = [01;35m[KlineItem->line().intersect(QLineF(limits.bottomLeft(), limits.bottomRight()), &intersection)[m[K;
+[533.952s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[533.952s] 
+[533.952s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[533.952s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[533.952s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[533.952s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[533.952s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[533.952s]       |                   [01;36m[K^~~~~~~~~[m[K
+[533.952s] [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:828:98:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[533.952s]   828 |                                   type = [01;35m[KlineItem->line().intersect(QLineF(limits.topRight(), limits.bottomRight()), &intersection)[m[K;
+[533.952s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[533.952s] 
+[533.952s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[533.952s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[533.952s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[533.952s]                  from [01m[K/home/user/ros2_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[533.952s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[533.952s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[533.952s]       |                   [01;36m[K^~~~~~~~~[m[K
+[535.320s] [ 62%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewer.cpp.o[0m
+[545.342s] [ 62%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerCellPicker.cpp.o[0m
+[545.859s] [ 63%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerInteractorStyle.cpp.o[0m
+[550.099s] [ 63%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/OdometryViewer.cpp.o[0m
+[556.051s] [ 63%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LoopClosureViewer.cpp.o[0m
+[561.521s] [ 64%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DataRecorder.cpp.o[0m
+[565.621s] [ 64%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CameraViewer.cpp.o[0m
+[571.311s] [ 65%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CalibrationDialog.cpp.o[0m
+[576.198s] [ 65%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportDialog.cpp.o[0m
+[576.963s] [ 66%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportBundlerDialog.cpp.o[0m
+[581.758s] [ 66%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PostProcessingDialog.cpp.o[0m
+[585.606s] [ 66%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportCloudsDialog.cpp.o[0m
+[601.040s] [ 67%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditConstraintDialog.cpp.o[0m
+[602.382s] [ 67%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MapVisibilityWidget.cpp.o[0m
+[603.642s] [ 68%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/GraphViewer.cpp.o[0m
+[608.719s] [ 68%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditDepthArea.cpp.o[0m
+[610.350s] [ 68%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditMapArea.cpp.o[0m
+[611.950s] [ 69%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocWidget.cpp.o[0m
+[616.215s] [ 69%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocSubView.cpp.o[0m
+[617.106s] [ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CreateSimpleCalibrationDialog.cpp.o[0m
+[619.417s] [ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ParametersToolBox.cpp.o[0m
+[623.474s] [ 71%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DepthCalibrationDialog.cpp.o[0m
+[629.550s] [ 71%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LinkRefiningDialog.cpp.o[0m
+[630.871s] [ 71%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/3rdParty/QMultiComboBox.cpp.o[0m
+[631.628s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/opencv/vtkImageMatSource.cpp.o[0m
+[632.184s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/EWIEGA46WW/qrc_GuiLib.cpp.o[0m
+[632.394s] [ 73%] [32m[1mLinking CXX shared library ../../bin/librtabmap_gui.so[0m
+[633.567s] [ 73%] Built target rtabmap_gui
+[633.582s] [ 73%] [32mBuilding CXX object app/src/CMakeFiles/rtabmap_app.dir/main.cpp.o[0m
+[637.715s] [ 74%] [32m[1mLinking CXX executable ../../bin/rtabmap[0m
+[638.813s] [ 74%] Built target rtabmap_app
+[638.825s] [ 74%] [32mBuilding CXX object tools/ConsoleApp/CMakeFiles/consoleApp.dir/main.cpp.o[0m
+[642.569s] [ 75%] [32m[1mLinking CXX executable ../../bin/rtabmap-console[0m
+[643.388s] [ 75%] Built target consoleApp
+[643.402s] [ 76%] [32mBuilding CXX object tools/ImagesJoiner/CMakeFiles/imagesJoiner.dir/main.cpp.o[0m
+[643.964s] [ 76%] [32m[1mLinking CXX executable ../../bin/rtabmap-imagesJoiner[0m
+[645.127s] [ 76%] Built target imagesJoiner
+[645.140s] [ 76%] [32mBuilding CXX object tools/ExtractObject/CMakeFiles/extractObject.dir/main.cpp.o[0m
+[652.077s] [ 76%] [32m[1mLinking CXX executable ../../bin/rtabmap-extractObject[0m
+[653.145s] [ 76%] Built target extractObject
+[653.159s] [ 77%] [32mBuilding CXX object tools/Camera/CMakeFiles/camera.dir/main.cpp.o[0m
+[654.602s] [ 77%] [32m[1mLinking CXX executable ../../bin/rtabmap-camera[0m
+[655.441s] [ 77%] Built target camera
+[655.454s] [ 77%] [32mBuilding CXX object tools/StereoEval/CMakeFiles/stereoEval.dir/main.cpp.o[0m
+[658.453s] [ 78%] [32m[1mLinking CXX executable ../../bin/rtabmap-stereoEval[0m
+[659.291s] [ 78%] Built target stereoEval
+[659.304s] [ 78%] [32mBuilding CXX object tools/KittiDataset/CMakeFiles/kitti_dataset.dir/main.cpp.o[0m
+[663.991s] [ 79%] [32m[1mLinking CXX executable ../../bin/rtabmap-kitti_dataset[0m
+[664.813s] [ 79%] Built target kitti_dataset
+[664.826s] [ 80%] [32mBuilding CXX object tools/RgbdDataset/CMakeFiles/rgbd_dataset.dir/main.cpp.o[0m
+[670.426s] [ 80%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_dataset[0m
+[671.239s] [ 80%] Built target rgbd_dataset
+[671.252s] [ 80%] [32mBuilding CXX object tools/EurocDataset/CMakeFiles/euroc_dataset.dir/main.cpp.o[0m
+[677.256s] [ 81%] [32m[1mLinking CXX executable ../../bin/rtabmap-euroc_dataset[0m
+[678.084s] [ 81%] Built target euroc_dataset
+[678.097s] [ 82%] [32mBuilding CXX object tools/Recovery/CMakeFiles/recovery.dir/main.cpp.o[0m
+[678.276s] [ 82%] [32m[1mLinking CXX executable ../../bin/rtabmap-recovery[0m
+[679.075s] [ 82%] Built target recovery
+[679.089s] [ 82%] [32mBuilding CXX object tools/Reprocess/CMakeFiles/reprocess.dir/main.cpp.o[0m
+[685.320s] [ 83%] [32m[1mLinking CXX executable ../../bin/rtabmap-reprocess[0m
+[686.161s] [ 83%] Built target reprocess
+[686.174s] [ 84%] [32mBuilding CXX object tools/DetectMoreLoopClosures/CMakeFiles/detectMoreLoopClosures.dir/main.cpp.o[0m
+[690.930s] [ 84%] [32m[1mLinking CXX executable ../../bin/rtabmap-detectMoreLoopClosures[0m
+[691.749s] [ 84%] Built target detectMoreLoopClosures
+[691.762s] [ 84%] [32mBuilding CXX object tools/Export/CMakeFiles/export.dir/main.cpp.o[0m
+[700.046s] [ 85%] [32m[1mLinking CXX executable ../../bin/rtabmap-export[0m
+[701.100s] [ 85%] Built target export
+[701.114s] [ 85%] [32mBuilding CXX object tools/Report/CMakeFiles/report.dir/main.cpp.o[0m
+[707.625s] [ 86%] [32m[1mLinking CXX executable ../../bin/rtabmap-report[0m
+[708.705s] [ 86%] Built target report
+[708.718s] [ 87%] [32mBuilding CXX object tools/Info/CMakeFiles/info.dir/main.cpp.o[0m
+[712.434s] [ 87%] [32m[1mLinking CXX executable ../../bin/rtabmap-info[0m
+[713.234s] [ 87%] Built target info
+[713.246s] [ 87%] [32mBuilding CXX object tools/CleanupLocalGrids/CMakeFiles/cleanupLocalGrids.dir/main.cpp.o[0m
+[716.579s] [ 88%] [32m[1mLinking CXX executable ../../bin/rtabmap-cleanupLocalGrids[0m
+[717.402s] [ 88%] Built target cleanupLocalGrids
+[717.416s] [ 89%] [32mBuilding CXX object tools/GlobalBundleAdjustment/CMakeFiles/globalBundleAdjustment.dir/main.cpp.o[0m
+[720.831s] [ 89%] [32m[1mLinking CXX executable ../../bin/rtabmap-globalBundleAdjustment[0m
+[721.645s] [ 89%] Built target globalBundleAdjustment
+[721.658s] [ 90%] [32mBuilding CXX object tools/CameraRGBD/CMakeFiles/rgbd_camera.dir/main.cpp.o[0m
+[727.449s] [ 90%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_camera[0m
+[728.330s] [ 90%] Built target rgbd_camera
+[728.343s] [ 91%] [32mBuilding CXX object tools/DatabaseViewer/CMakeFiles/databaseViewer.dir/main.cpp.o[0m
+[732.104s] [ 91%] [32m[1mLinking CXX executable ../../bin/rtabmap-databaseViewer[0m
+[733.080s] [ 91%] Built target databaseViewer
+[733.094s] [ 92%] [32mBuilding CXX object tools/EpipolarGeometry/CMakeFiles/epipolar_geometry.dir/main.cpp.o[0m
+[737.265s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-epipolar_geometry[0m
+[738.359s] [ 92%] Built target epipolar_geometry
+[738.373s] [ 93%] [32mBuilding CXX object tools/OdometryViewer/CMakeFiles/odometryViewer.dir/main.cpp.o[0m
+[742.192s] [ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-odometryViewer[0m
+[743.244s] [ 93%] Built target odometryViewer
+[743.257s] [ 93%] [32mBuilding CXX object tools/DataRecorder/CMakeFiles/dataRecorder.dir/main.cpp.o[0m
+[746.915s] [ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-dataRecorder[0m
+[747.966s] [ 93%] Built target dataRecorder
+[747.980s] [ 94%] [32mBuilding CXX object tools/Calibration/CMakeFiles/calibration.dir/main.cpp.o[0m
+[751.643s] [ 94%] [32m[1mLinking CXX executable ../../bin/rtabmap-calibration[0m
+[752.689s] [ 94%] Built target calibration
+[752.702s] [ 94%] [32mBuilding CXX object tools/Matcher/CMakeFiles/matcher.dir/main.cpp.o[0m
+[758.756s] [ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-matcher[0m
+[759.855s] [ 95%] Built target matcher
+[759.869s] [ 95%] [32mBuilding CXX object examples/BOWMapping/CMakeFiles/bow_mapping.dir/main.cpp.o[0m
+[763.521s] [ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-bow_mapping[0m
+[764.338s] [ 95%] Built target bow_mapping
+[764.351s] [ 96%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[764.706s] [ 96%] Built target rgbd_mapping_autogen
+[764.719s] [ 96%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/rgbd_mapping_autogen/mocs_compilation.cpp.o[0m
+[770.773s] [ 97%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/main.cpp.o[0m
+[778.187s] [ 97%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_mapping[0m
+[779.409s] [ 97%] Built target rgbd_mapping
+[779.422s] [ 98%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[779.959s] [ 98%] Built target wifi_mapping_autogen
+[779.972s] [ 98%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/wifi_mapping_autogen/mocs_compilation.cpp.o[0m
+[785.810s] [ 99%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/main.cpp.o[0m
+[791.996s] [ 99%] [32m[1mLinking CXX executable ../../bin/rtabmap-wifi_mapping[0m
+[793.094s] [ 99%] Built target wifi_mapping
+[793.107s] [ 99%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[793.223s] [ 99%] Built target noEventsExample_autogen
+[793.236s] [ 99%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/noEventsExample_autogen/mocs_compilation.cpp.o[0m
+[798.388s] [ 99%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/main.cpp.o[0m
+[804.687s] [100%] [32m[1mLinking CXX executable ../../bin/rtabmap-noEventsExample[0m
+[805.793s] [100%] Built target noEventsExample
+[805.802s] Invoked command in '/home/user/ros2_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/rtabmap
+[805.836s] Invoking command in '/home/user/ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/rtabmap
+[805.841s] -- Install configuration: "Release"
+[805.841s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake
+[805.841s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake
+[805.841s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake
+[805.841s] -- Installing: /home/user/ros2_ws/install/rtabmap/share/rtabmap/package.xml
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.4
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_utilite.so
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h
+[805.842s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h
+[805.843s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[805.843s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake
+[805.843s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[805.844s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-res_tool
+[805.844s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0" to ""
+[805.844s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_core.so.0.21.4
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_core.so.0.21
+[805.857s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/lib/librtabmap_core.so.0.21.4" to ""
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_core.so
+[805.857s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h
+[805.857s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h
+[805.858s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h
+[805.859s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h
+[805.860s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h
+[805.861s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h
+[805.862s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h
+[805.863s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h
+[805.864s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[805.864s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake
+[805.864s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.4
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_gui.so.0.21
+[805.869s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.4" to ""
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/librtabmap_gui.so
+[805.869s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h
+[805.869s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h
+[805.870s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[805.870s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h
+[805.871s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[805.871s] -- Up-to-date: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap
+[805.871s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap" to ""
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-console
+[805.871s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-console" to ""
+[805.871s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-extractObject
+[805.872s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-extractObject" to ""
+[805.872s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-camera
+[805.872s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-camera" to ""
+[805.872s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+[805.872s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-kitti_dataset" to ""
+[805.872s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+[805.873s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-rgbd_dataset" to ""
+[805.873s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+[805.873s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-euroc_dataset" to ""
+[805.873s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-recovery
+[805.873s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-recovery" to ""
+[805.873s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-reprocess
+[805.874s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-reprocess" to ""
+[805.874s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[805.874s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures" to ""
+[805.874s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-export
+[805.874s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-export" to ""
+[805.875s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-report
+[805.875s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-report" to ""
+[805.875s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-info
+[805.875s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-info" to ""
+[805.875s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[805.875s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids" to ""
+[805.875s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[805.876s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment" to ""
+[805.876s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+[805.876s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-rgbd_camera" to ""
+[805.876s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-databaseViewer
+[805.876s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-databaseViewer" to ""
+[805.876s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-odometryViewer
+[805.876s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-odometryViewer" to ""
+[805.877s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-dataRecorder
+[805.877s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-dataRecorder" to ""
+[805.877s] -- Installing: /home/user/ros2_ws/install/rtabmap/bin/rtabmap-calibration
+[805.877s] -- Set runtime path of "/home/user/ros2_ws/install/rtabmap/bin/rtabmap-calibration" to ""
+[805.879s] Invoked command in '/home/user/ros2_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/rtabmap

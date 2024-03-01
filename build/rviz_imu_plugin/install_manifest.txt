@@ -1,0 +1,1 @@
+/home/user/ros2_ws/install/rviz_imu_plugin/lib/librviz_imu_plugin.so

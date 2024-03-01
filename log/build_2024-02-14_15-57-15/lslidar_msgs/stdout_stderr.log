@@ -1,0 +1,5 @@
+[  1%] Built target lslidar_msgs__cpp
+[ 12%] Built target lslidar_msgs__rosidl_typesupport_cpp
+gmake[2]: *** [CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/build.make:325: CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

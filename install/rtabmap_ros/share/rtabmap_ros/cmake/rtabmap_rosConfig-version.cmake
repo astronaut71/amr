@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/rtabmap_ros/ament_cmake_core/rtabmap_rosConfig-version.cmake
